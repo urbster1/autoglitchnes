@@ -15,3 +15,4 @@ del %~1.bin
 goto:eof
 :stop
 echo Could not find files from makechr
+goto:eof
