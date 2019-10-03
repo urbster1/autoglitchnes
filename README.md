@@ -5,7 +5,7 @@ A few scripts to automate making custom glitchNES ROMs
 * [makechr](https://github.com/dustmop/makechr/releases)
 * Python 3
 * Windows (sorry... most of this is cross-platform so I will accept pull requests)
-* [GNU CoreUtils](http://gnuwin32.sourceforge.net/packages/coreutils.htm)
+* [GNU CoreUtils](http://gnuwin32.sourceforge.net/packages/coreutils.htm) (not needed on Linux/Cygwin)
 
 # How to use
 Install Python and GNU CoreUtils and make sure they are in PATH so they can be found when you can run them from the command line.
@@ -14,4 +14,4 @@ Follow [this tutorial](https://www.youtube.com/watch?v=wRyeE6wEx-o&lc) to genera
 
 Once you've generated your PNG image and you can verify that makechr can process it without errors in the GUI, place it in the same folder as makechr, asm6, glitch.py, and makenes.bat. Then open a command line and run `makenes.bat [image]` where "image" is the filename without the .png extension. This will generate your NES ROM assuming all went well.
 
-Thanks to NO CARRIER for [glitchNES](https://github.com/no-carrier/glitchNES-0.2)!!!
+Thanks to NO CARRIER for [glitchNES](https://github.com/no-carrier/glitchNES-0.2)!!! Thanks to dustmop for makechr!!!
