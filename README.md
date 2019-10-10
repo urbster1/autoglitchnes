@@ -19,18 +19,27 @@ Once you've generated your PNG image and you can verify that makechr can process
 ---- Controller 1 ----
 
 Select - toggle tile writing (auto-glitch)
+
 Start - bankswitch
+
 Up, Down, Left, Right - toggle movement in that direction
+
 B - slows down everything (kind of)
+
 A - speeds up everything (pretty much)
 
 ---- Controller 2 ----
 
 Select - toggle background color cycling
+
 Start - PAUSE (when held down)
+
 Left, Right - not used
+
 Up, Down - change screens and banks
+
 B - tap tempo to control auto-glitch
+
 A - turns off tile writing (auto-glitch) / clears tap tempo
 
 # Thanks
