@@ -16,10 +16,6 @@ Once you've generated your PNG image and you can verify that makechr can process
 
 # Controls (from glitchNES README)
 
---------------------------------------------------------------
-CONTROLS (MORE DETAILED INFO UNDER "USAGE" BELOW)
---------------------------------------------------------------
-
 ---- Controller 1 ----
 
 Select - toggle tile writing (auto-glitch)
