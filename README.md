@@ -15,7 +15,7 @@ Follow [this tutorial](https://www.youtube.com/watch?v=wRyeE6wEx-o&lc) to genera
 Once you've generated your PNG image and you can verify that makechr can process it without errors in the GUI, place it in the same folder as makechr, asm6, glitch.py, and makenes.bat. Then open a command line and run `makenes.bat [image]` where "image" is the filename without the .png extension. This will generate your NES ROM assuming all went well.
 
 # Controls (from glitchNES README)
-| Controller 1 | |
+|Controller 1| |
 |--------------|-|
 |Select | toggle tile writing (auto-glitch)|
 |Start | bankswitch|
@@ -23,7 +23,7 @@ Once you've generated your PNG image and you can verify that makechr can process
 |B | slows down everything (kind of)|
 |A | speeds up everything (pretty much)|
 
-| Controller 2 | |
+|Controller 2| |
 |--------------|-|
 |Select | toggle background color cycling|
 |Start | PAUSE (when held down)|
