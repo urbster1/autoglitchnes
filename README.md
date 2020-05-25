@@ -8,7 +8,7 @@ A few scripts to automate making custom glitchNES ROMs
 * [Git for Windows](https://gitforwindows.org/) (not needed on Linux/Cygwin)
 
 # How to use
-Install Python and GNU CoreUtils and make sure they are in PATH so they can be found when you can run them from the command line.
+Install Python and Git for Windows and make sure they are in PATH so they can be found when you can run them from the command line.
 
 Follow [this tutorial](https://www.youtube.com/watch?v=wRyeE6wEx-o&lc) to generate an indexed 256x240 PNG that fulfills the basic restrictions for use in makechr. In general this means that only 4 colors can be used in each 16x16 pixel area (tile), and you are restricted to 4 palettes of 4 colors including 1 color common to all palettes (13 colors maximum). I've provided the NES palette that makechr uses in GIMP format here: https://defensemech.com/nes.gpl. Additionally, you are limited to 256 unique 8x8 tiles.
 
