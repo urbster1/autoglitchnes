@@ -4,8 +4,7 @@ A few scripts to automate making custom glitchNES ROMs
 # Requirements
 * [makechr](https://github.com/dustmop/makechr/releases)
 * Python 3
-* Windows (sorry... most of this is cross-platform so I will accept pull requests)
-* [Git for Windows](https://gitforwindows.org/) (not needed on Linux/Cygwin)
+* Windows and [Git for Windows](https://gitforwindows.org/), or Cygwin, or Linux
 
 # How to use
 Install Python and Git for Windows and make sure they are in PATH so they can be found when you can run them from the command line.
