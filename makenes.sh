@@ -1,6 +1,6 @@
 #!/bin/bash
-set FILE=$1
-set PNG=${FILE}.png
+FILE=$(realname "$1")
+PNG=${FILE}.png
 python3 ~/makechr/makechr.py ${PNG} -o ${FILE}.dat
 if [[ -f ${FILE}palette.dat && --f ${FILE}attribute.dat -f ${FILE}nametable.dat -f ${FILE}chr.dat ]]; then
   python3 glitch.py ${FILE}
