@@ -9,7 +9,7 @@ if [[ -f ${FILE}palette.dat && -f ${FILE}attribute.dat && -f ${FILE}nametable.da
   truncate -c -s 16 ${FILE}palette.dat
   mv ${FILE}palette.dat ${FILE}.pal
   cat ${FILE}nametable.dat ${FILE}attribute.dat > ${FILE}.dat
-  ./asm6 ${FILE}.asm
+  asm6 ${FILE}.asm
   cat ${FILE}.bin ${FILE}.chr > ${FILE}.nes
   rm ${FILE}.bin
 else
